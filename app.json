@@ -19,7 +19,7 @@
         },
         "KEYCLOAK_PASSWORD": {
             "description": "Initial Admin password",
-            "value": "a6Fa05E80242aC120002#$7"
+            "value": "change_me"
         },
         "PROXY_ADDRESS_FORWARDING": {
             "description": "Set to true since we will be running behind Heroku's load balancers",
@@ -34,7 +34,7 @@
     },
     "addons": [
         {
-            "plan": "heroku-postgresql:mini"
+            "plan": "heroku-postgresql:hobby-dev"
         }
     ]
 }
